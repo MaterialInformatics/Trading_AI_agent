@@ -37,6 +37,7 @@ plt.xlabel('Time')
 plt.ylabel('Price ($/MWh)')
 plt.legend()
 plt.tight_layout()
+plt.savefig('synthetic_data.png')
 plt.show()
 
 # Plot 2: RandomForest Model Performance
@@ -52,6 +53,8 @@ plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--')
 plt.xlabel('Actual Degradation')
 plt.ylabel('Predicted Degradation')
 plt.title(f'RandomForest Model: Actual vs Predicted Degradation (MSE: {mse:.6f})')
+plt.savefig('degradation_model_training.png')
+
 plt.show()
 
 # Plot 3: Performance Comparison
@@ -70,4 +73,5 @@ plt.title('Performance Comparison Across Scenarios')
 plt.xticks(index + 1.5 * bar_width, scenarios)
 plt.legend()
 plt.tight_layout()
+plt.savefig('AIagentPerformance.png')
 plt.show()
