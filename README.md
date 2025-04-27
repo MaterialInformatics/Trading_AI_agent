@@ -300,3 +300,9 @@ Feature Set: The degradation model uses four features; additional features (e.g.
 Real Data: The system uses synthetic data; adapting it to real BESS data would require minor adjustments to data preprocessing.
 
 Scalability: The system is designed for a single battery string; scaling to multiple strings or larger datasets may require optimization.
+
+
+
+![synthetic_data](https://github.com/user-attachments/assets/fb854e49-2078-4670-b9b7-c94786e0f25d)
+![degradation_model_training](https://github.com/user-attachments/assets/f67533ef-fa8a-461d-88af-33d19bc47298)
+![AIagentPerformance](https://github.com/user-attachments/assets/b34ae444-3b59-424c-a171-aa410dafca8f)
